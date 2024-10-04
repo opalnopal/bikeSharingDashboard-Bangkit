@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 @st.cache_data
 def load_data():
-    data = pd.read_csv('D:/codeng/bangkit/submission/dashboard/main_data.csv')
+    data = pd.read_csv('main_data.csv')
     return data
 
 data = load_data()
